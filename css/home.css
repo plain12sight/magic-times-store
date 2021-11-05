@@ -1,0 +1,25 @@
+@import "nav.css";
+.hero-section {
+    width: 100px;
+    height: calc(100vh - 120px);
+    background-image: url("pexels-monstera-5709031.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section.sub-headinng {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
